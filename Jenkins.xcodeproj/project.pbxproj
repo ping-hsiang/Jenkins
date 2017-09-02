@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					15B5C8C01F5A84CD00DDE9C1 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HNQB7564E8;
 						ProvisioningStyle = Automatic;
 					};
 					15B5C8D41F5A84CD00DDE9C1 = {
@@ -412,7 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HNQB7564E8;
 				INFOPLIST_FILE = Jenkins/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.hsiang.Jenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +427,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HNQB7564E8;
 				INFOPLIST_FILE = Jenkins/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.hsiang.Jenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +510,7 @@
 				15B5C8EB1F5A84CD00DDE9C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15B5C8EC1F5A84CD00DDE9C1 /* Build configuration list for PBXNativeTarget "JenkinsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +519,7 @@
 				15B5C8EE1F5A84CD00DDE9C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15B5C8EF1F5A84CD00DDE9C1 /* Build configuration list for PBXNativeTarget "JenkinsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +528,7 @@
 				15B5C8F11F5A84CD00DDE9C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
